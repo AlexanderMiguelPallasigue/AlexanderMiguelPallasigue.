@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Oxygen', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+#blog-bg {
+  width: auto;
+  height: 795px;
+  background: url(./assets/learning-bg1.png) no-repeat;
+  background-size: cover;
+}
+
+.blog {
+    margin-top: 30px;
+    padding: 90px;
+    margin-bottom: 0;
+    background-color: rgb(203, 203, 203);
+    opacity: 0.8;
+    height: 795px;
+}
+
+.blog-btn {
+  text-decoration: none;
+  color: white;
+}
+
+.learning {
+  margin-top: 300px;
+}
+
+.learning-img {
+    padding: 20px;
+    margin-top: 30px;
+    padding-top: 0;
+    width: 500px;
+    float: left;
+}
+
+.learning1,
+.learning2,
+.learning3,
+.learning4 {
+    margin: 50px;
+    display: flex;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: rgba(203, 203, 203, .20);
+    border-radius: 20px;
+    box-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black, 0 0 5px black;
+}
+
+.text {
+  display: flex;
+  margin-top: 30px;
+}
+
+.text img {
+margin-right: 30px;
+border-radius: 10px;
+}
+
+/* footer */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  .social-icons li {
+    margin-right: 10px;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .social-icons img {
+    width: 30px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  @media screen and (max-width: 480px) {
+    .blog {
+      padding: 30px; /* Adjusted padding for smaller screens */
+      height: auto; /* Auto height on smaller screens */
+    }
+    
+    .learning-img {
+      width: 100%; 
+      height: 50vh;
+    }
+  
+    .learning1,
+    .learning2,
+    .learning3,
+    .learning4 {
+      width: 450px;
+      margin: 20px; /* Adjusted margin for smaller screens */
+      padding: 30px; /* Adjusted padding for smaller screens */
+    }
+
+    .text {
+      display: block;
+      padding-top: 20px;
+      width: 400px;
+      padding: 20x;
+    }
+  }

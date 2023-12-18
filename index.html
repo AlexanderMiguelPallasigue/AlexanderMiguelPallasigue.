@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Portfolio</title>
+</head>
+<body>
+    <div class="hero">
+        <video autoplay loop muted plays-inline class="back-video">
+            <source src="/assets/1123(1).mp4" type="video/mp4">
+        </video>
+        <div class="content">
+            <h1 class="text">THIS IS OUR PORTFOLIO.</h1>
+            <a href="#heading">EXPLORE</a>
+        </div>
+    </div>
+    <main>
+        <div class="main" id="main">
+            <h3 class="heading" id="heading"><span>STUDENT </span>PROFILES</h3>
+            <div class="container main-container" id="container-main">
+                <div class="card">
+                    <img src="./profiles/393084353_386481823709599_891296416446728138_n.jpg" >
+                    <div class="details">
+                        <h3>Sunder Miguel</h3>
+                        <p>BUKSU STUDENT</p>
+                        <div class="visit">
+                            <p><a href="./main2.html" target="_blank">CHECK PROFILE</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card ">
+                    <img src="./profiles/377238783_749538936993934_7852529575691760018_n.jpg" >
+                    <div class="details">
+                        <h3>Arcel Gwapo</h3>
+                        <p>BUKSU STUDENT</p>
+                        <div class="visit">
+                            <p><a href="./main.html" target="_blank">CHECK PROFILE</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="./profiles/404700928_881067296966331_5632873646689088465_n.jpg" >
+                    <div class="details">
+                        <h3>Jacobo Colegio</h3>
+                        <p>BUKSU STUDENT</p>
+                        <div class="visit">
+                            <p><a href="./main3.html" target="_blank">CHECK PROFILE</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scrollreveal.min.js"></script>
+    <script src="main.js"></script>
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="zcelmacaslh" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting!" data-color="#5F7FFF" data-position="Right" data-x_margin="18" data-y_margin="18"></script>
+</body>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.7.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyAXpVIqT0f-panUpKFK1bzLUJfUJxGIvUE",
+      authDomain: "portfolio-testing-da383.firebaseapp.com",
+      projectId: "portfolio-testing-da383",
+      storageBucket: "portfolio-testing-da383.appspot.com",
+      messagingSenderId: "755199996083",
+      appId: "1:755199996083:web:bc40262667315cef0700c6",
+      measurementId: "G-Q2DQG93VY9"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</html>

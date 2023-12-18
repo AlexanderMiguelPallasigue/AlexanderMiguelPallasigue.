@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    background-color: #0c121b;
+}
+
+.about-img {
+    padding-left: 50px;
+}
+
+.about {
+    margin-top: 150px;
+    color: white;
+}
+
+.profile {
+    padding-left: 120px;
+}
+
+
+.name {
+    padding-top: 20px;
+    margin-top: 200px;
+    padding-left: 150px;
+    color: white;
+}
+
+.blog {
+    padding: 50px;
+    color: white;
+    margin-top: 220px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid white;
+}
+
+.flex {
+    margin-top: 200px;
+    color: white;
+}
+
+.ig img{
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.student-name {
+    color: aqua;
+    font-family: 'Fira Code', monospace;
+    border-right: 5px solid;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: 
+        typing 2s,
+        cursor .4s step-end infinite alternate;
+
+}
+
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
+
+/* footer */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+
+  .social-icons li {
+    margin-right: 10px;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .social-icons img {
+    width: 30px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  .tut {
+    margin-left: 150px;
+  }
+
+  /* website responsiveness mobile and desktop */
+  
+  @media only screen and (max-width: 480px) {
+    .main {
+        width: inherit;
+    }
+
+    .profile, .about-img {
+        width: inherit;
+        flex-wrap: wrap;
+        margin-top: 150px;
+        padding-left: 0;
+    }
+
+    .name {
+        padding-top: 20px;
+        margin-top: 200px;
+        padding-left: 50px;
+        color: white;
+    }
+
+    .infographics {
+        width: inherit;
+        height: 60vh;
+    }
+
+    iframe {
+        width: inherit;
+    }
+    
+    .tut {
+        margin-left: 0;
+      }
+    
+    
+  }  
